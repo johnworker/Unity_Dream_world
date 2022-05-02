@@ -37,7 +37,7 @@ public class playercontrol : MonoBehaviour
     // other 就是碰撞到的物件
     private void OnCollisionEnter(Collision other) 
     {
-        if(other.gameObject.tag == "M_Cylinder_Rounded")
+        if(other.gameObject.tag == "M_Cylinder_Rounded(1)")
         {
             Debug.Log("撞到了");
         }
